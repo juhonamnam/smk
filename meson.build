@@ -20,7 +20,7 @@ default_options = {
 parts = [
     # keyboard, platform, layouts, options
     ['example', 'sh68f90a', ['default'], {}],
-    ['nuphy-air60', 'sh68f90a', ['default'], { 'vendor_id': '0x05ac', 'product_id': '0x024f', 'wireless': 'bk3632' }],
+    ['nuphy-air60', 'sh68f90a', ['default', 'custom'], { 'vendor_id': '0x05ac', 'product_id': '0x024f', 'wireless': 'bk3632' }],
     ['eyooso-z11', 'sh68f90a', ['default'], { 'vendor_id': '0x258a', 'product_id': '0x002a' }],
 ]
 
